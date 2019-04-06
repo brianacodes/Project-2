@@ -1,14 +1,14 @@
 {
   "development": {
     "username": "root",
-    "password": null,
-    "database": "exampledb",
+    "password": "BRI5ql94!",
+    "database": "solutions_db",
     "host": "localhost",
     "dialect": "mysql"
   },
   "test": {
     "username": "root",
-    "password": null,
+    "password": "BRI5ql94!",
     "database": "testdb",
     "host": "localhost",
     "dialect": "mysql",
