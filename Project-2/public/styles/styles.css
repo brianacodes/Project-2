@@ -1,3 +1,11 @@
-.list-group-item {
-  line-height: 2.5;
+body {
+  font-family: 'Merriweather', serif;
+  color: #f4623a;
+}
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+  margin-left: 10px;
+  height: 600px;
 }
