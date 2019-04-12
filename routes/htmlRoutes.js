@@ -7,11 +7,10 @@ module.exports = function(app){
 	});
 
 	app.get('/survey', function (req, res) {
-		res.sendFile(path.join(__dirname, "../public/views/survey.html"));
+	  	res.sendFile(path.join(__dirname, "../public/views/survey.html"));
   });
   
   app.get('/solutions', function (req, res) {
     res.sendFile(path.join(__dirname, "../public/views/solutions.html"));
 });
 };
-console.log;

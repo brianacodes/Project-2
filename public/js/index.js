@@ -33,7 +33,7 @@ var API = {
 // refreshExamples gets new examples from the db and repopulates the list
 var refreshExamples = function() {
   API.getExamples().then(function(data) {
-    var $examples = data.map(function(example  ) {
+    var $examples = data.map(function(example) {
       var $a = $("<a>")
         .text(example.text)
         .attr("href", "/example/" + example.id);
@@ -97,16 +97,3 @@ var handleDeleteBtnClick = function() {
 // Add event listeners to the submit and delete buttons
 $submitBtn.on("click", handleFormSubmit);
 $exampleList.on("click", ".delete", handleDeleteBtnClick);
-
-
-// *******************
-function ovw(){
-  for (var i = 0; i < info.length; i++){
-
-  var pImg = "<div><h3 class='card-title'> class='number'>"+info[i].title+"</h3></div>"
-
-   var pCard = $("<div class='card advcard'>"+pImg+
-   "<div class='card-body'></div></div>");
-
-   $(".promptBox").append(pCard);
-});
