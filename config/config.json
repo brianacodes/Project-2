@@ -1,14 +1,15 @@
 {
   "development": {
     "username": "root",
-    "password": "BRI5ql94!",
-    "database": "solutions_db",
+    "password": "",
+    "database": "solution",
     "host": "localhost",
+    "port": 3306,
     "dialect": "mysql"
   },
   "test": {
     "username": "root",
-    "password": "BRI5ql94!",
+    "password": null,
     "database": "testdb",
     "host": "localhost",
     "dialect": "mysql",
