@@ -8,7 +8,7 @@
 * Javascript 
 * Sequelize ORM
 * Bootstrap
-* Heruko
+* Heroku
 
 ## Overview 
 
